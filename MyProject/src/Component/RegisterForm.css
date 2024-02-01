@@ -1,0 +1,46 @@
+.split{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index:1;
+    overflow-y:hidden;
+    top: 0;
+  
+}
+.right{
+    right: 0;
+    background-color: black;
+    display: flex;
+    justify-Content:center;
+    align-items:center;
+    flex-Direction:column;
+    gap:1px;
+    
+}
+.left{
+    left: 0;
+    width: 645px;
+    height: 1000px;
+
+}
+input{
+    background-color: #292929;
+}
+button{
+    background: #72DB73;
+    width: 200px;
+    height: 50px;
+    top: 700px;
+    left: 1047px;
+    border-radius: 28px;    
+
+}
+p{
+    color:red;
+}
+.lebal{
+    color: white;
+}
+span{
+    color: white;
+}
